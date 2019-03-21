@@ -1,0 +1,8 @@
+nano thanks.sh
+
+#!/bin/bash
+echo "Enter Your Name"
+read name
+echo "Thanks $name for evaluation and have a good day"
+
+bash thanks.sh

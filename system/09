@@ -1,0 +1,5 @@
+who
+|| 
+users
+|| 
+who | cut -d' ' -f1

@@ -1,0 +1,7 @@
+systemctl start ssh 
+||
+/etc/init.d/ssh status
+||
+ps -ef | grep ssh
+||
+service ssh status

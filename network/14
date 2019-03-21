@@ -1,0 +1,5 @@
+cat /etc/hosts
+
+# The hosts file contains lines of text consisting 
+# of an IP address in the first text field followed 
+# by one or more host names.

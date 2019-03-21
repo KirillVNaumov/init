@@ -1,1 +1,3 @@
-netstat -rn | grep 'default' | cut -c-34 | head -1
+netstat -nr | grep default   
+||
+route get default | grep gateway | awk '{print $2}'

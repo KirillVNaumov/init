@@ -1,0 +1,3 @@
+uptime -s
+|| 
+last reboot | head -1 | cut -c40-57

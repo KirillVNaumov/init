@@ -1,0 +1,18 @@
+Log in to your server.
+
+#Log in to your system as the root user:
+#    ssh root@server_ip_address
+
+#Create a new user account:
+#    adduser new_username
+#Set up password:
+#    qwerty
+
+#Add user to sudo group:
+#    usermod -aG sudo new_username
+
+#After use command 'su' to switch user:
+#    su new_username
+
+#Use 'whoami' to see who is currently running
+#    whoami
